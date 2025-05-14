@@ -1,14 +1,8 @@
-**<span class="label-good">Good:</span>**
-
-<div class="code-block good">
-<strong class="label">Good:</strong>
-
-<div class="code-block good">
+<div class="codehilite good">
 <strong class="label">Good:</strong>
 
 ```lua
-local foo = {
-  type = "foo"
-}
+-- This code is good
+print("All systems go!")
 ```
 </div>
