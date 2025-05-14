@@ -3,11 +3,25 @@
 }
 
 .highlight.good pre {
-  background-color: #e8f5e9 !important;
+  background-color: #e8f5e9 !important; /* light green */
 }
 
 .highlight.bad pre {
-  background-color: #ffebee !important;
+  background-color: #ffebee !important; /* light red */
+}
+
+.style-good, .style-bad {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.style-good {
+  color: #2e7d32; /* dark green */
+}
+
+.style-bad {
+  color: #c62828; /* red */
 }
 
 
