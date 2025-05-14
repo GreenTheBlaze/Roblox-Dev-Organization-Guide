@@ -71,8 +71,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
+  - attr_list
 
 nav:
   - Home: index.md
   - File Organization: file-organization.md
   - Scripting Style Guide: scripting-style-guide.md
+  - Test: test-code.md
