@@ -1,3 +1,23 @@
 .md-typeset hr {
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
+
+/* Remove default icon from admonitions */
+.md-typeset .exception::before {
+  content: none;
+}
+
+/* Style for the 'exception' block */
+.md-typeset .exception {
+  background-color: #fff8f0;
+  border-left: 4px solid #f08c00;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 0.3em;
+}
+
+/* Optional: Style the label */
+.md-typeset .exception strong {
+  color: #f08c00;
+  font-weight: 700;
+}
