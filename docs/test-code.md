@@ -1,1 +1,16 @@
-<details> <summary>Example Markdown</summary> <pre> ```html <div class="code-block exception"> <div class="code-label">Exception:</div> <pre><code>error("Unexpected input")</code></pre> </div> <div class="code-block bad"> <div class="code-label">Bad:</div> <pre><code>local x = 1/0</code></pre> </div> <div class="code-block good"> <div class="code-label">Good:</div> <pre><code>local function safeDivide(a, b) return b ~= 0 and a / b or nil end</code></pre> </div> ``` </pre>
+!!! exception "Exception:"
+    ```lua
+    error("Unexpected input")
+    ```
+
+!!! bad "Bad:"
+    ```lua
+    local x = 1/0
+    ```
+
+!!! good "Good:"
+    ```lua
+    local function safeDivide(a, b)
+      return b ~= 0 and a / b or nil
+    end
+    ```
