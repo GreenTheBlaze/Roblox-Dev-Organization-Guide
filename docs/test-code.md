@@ -1,12 +1,14 @@
-::: exception
-**Exception:**
+!!! warning "Exception:"
+    ```lua
+    error("Something went wrong!")
+    ```
 
-```python
-print('Quoth the raven, "Nevermore"')
-```
+!!! danger "Bad:"
+    ```lua
+    MyObject = nil  -- bad practice
+    ```
 
-::: exception
-**Exception:**
-```python
-print('Quoth the raven, "Nevermore"')
-```
+!!! success "Good:"
+    ```lua
+    local myObject = nil
+    ```
