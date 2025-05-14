@@ -28,3 +28,16 @@
 -- A normal code block hopefully...
 print("This is normal")
 ```
+
+
+**Exception:**
+
+```lua
+warn("Something went wrong!")
+```
+
+**Bad:**
+
+```lua
+error("Something went wrong!")
+```
