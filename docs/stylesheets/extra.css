@@ -2,20 +2,50 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-/* Exception block style */
-.md-typeset strong:contains("Exception:") + pre,
-.md-typeset strong:contains("Exception:") + div > pre {
-  background-color: #2e1c00 !important; /* deep orange-brown */
+.code-block {
+  margin: 1em 0;
+  border-radius: 6px;
+  overflow: auto;
+  padding: 0;
+  font-family: monospace;
 }
 
-/* Bad block style */
-.md-typeset strong:contains("Bad:") + pre,
-.md-typeset strong:contains("Bad:") + div > pre {
-  background-color: #2b0000 !important; /* dark red */
+.code-label {
+  font-weight: bold;
+  padding: 0.4em 0.8em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Good block style */
-.md-typeset strong:contains("Good:") + pre,
-.md-typeset strong:contains("Good:") + div > pre {
-  background-color: #002b00 !important; /* dark green */
+.code-block pre {
+  margin: 0;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Custom styles */
+.code-block.exception {
+  background-color: #fff3e0; /* light orange */
+}
+
+.code-block.exception .code-label {
+  background-color: #ffa726;
+  color: white;
+}
+
+.code-block.bad {
+  background-color: #ffebee; /* light red */
+}
+
+.code-block.bad .code-label {
+  background-color: #e53935;
+  color: white;
+}
+
+.code-block.good {
+  background-color: #e8f5e9; /* light green */
+}
+
+.code-block.good .code-label {
+  background-color: #43a047;
+  color: white;
 }
