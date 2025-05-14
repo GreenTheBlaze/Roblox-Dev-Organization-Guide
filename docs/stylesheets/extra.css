@@ -2,22 +2,12 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-/* Good code block background */
-.codehilite.good pre,
 .highlight.good pre {
-  background-color: #e8f5e9 !important; /* Light green */
+  background-color: #e8f5e9 !important;
 }
 
-/* Bad code block background */
-.codehilite.bad pre,
 .highlight.bad pre {
-  background-color: #ffebee !important; /* Light red */
-}
-
-/* Exception code block background */
-.codehilite.exception pre,
-.highlight.exception pre {
-  background-color: #fffde7 !important; /* Light yellow */
+  background-color: #ffebee !important;
 }
 
 
