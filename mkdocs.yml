@@ -71,10 +71,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: true
   - pymdownx.extra
   - attr_list
-  - codehilite
 
 nav:
   - Home: index.md
