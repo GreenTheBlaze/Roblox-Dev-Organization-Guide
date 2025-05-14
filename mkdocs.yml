@@ -37,19 +37,31 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    scheme: default
-    primary: green
-    accent: green
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
   
   highlightjs: true
   hljs_languages:
     - lua
 
 extra_css:
-  - extra.css
-
-extra_javascript:
-  - javascripts/tags.js
+  - stylesheets/extra.css
 
 markdown_extensions:
   - tables
