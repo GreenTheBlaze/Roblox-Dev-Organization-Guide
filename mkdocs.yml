@@ -71,6 +71,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.extra
   - attr_list
 
 nav:
