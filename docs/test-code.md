@@ -1,19 +1,10 @@
-**Good:** {.style-good}
-
-```lua class="good"
--- Code here
-print("Testing something:", 2)
-```
-
-
 <p class="style-good">Good:</p>
 
-```lua class="good"
--- Without this condition, the aircraft hangar would fill up with water.
+```lua
+-- This is good code
 if waterLevelTooHigh() then
     drainHangar()
 end
-```
 
 
 
