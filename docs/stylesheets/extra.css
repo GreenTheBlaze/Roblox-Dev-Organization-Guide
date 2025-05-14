@@ -2,18 +2,40 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-/* Green background for 'good' code blocks */
+/* Label text styles */
+.label-good {
+  color: #0f9d58;
+  font-weight: bold;
+}
+
+.label-bad {
+  color: #d93025;
+  font-weight: bold;
+}
+
+.label-exception {
+  color: #f57c00;
+  font-weight: bold;
+}
+
+/* Code block background colors */
 .highlight.good, pre.good {
   background-color: #e6f4ea !important;
-  border-left: 4px solid #34a853;
+  border-left: 4px solid #0f9d58;
   padding: 1em;
   border-radius: 5px;
 }
 
-/* Red background for 'bad' code blocks */
 .highlight.bad, pre.bad {
   background-color: #fce8e6 !important;
   border-left: 4px solid #d93025;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.highlight.exception, pre.exception {
+  background-color: #fff3e0 !important;
+  border-left: 4px solid #f57c00;
   padding: 1em;
   border-radius: 5px;
 }
