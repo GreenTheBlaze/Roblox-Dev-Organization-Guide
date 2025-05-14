@@ -2,6 +2,27 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
+/* Good code block background */
+.codehilite.good pre,
+.highlight.good pre {
+  background-color: #e8f5e9 !important; /* Light green */
+}
+
+/* Bad code block background */
+.codehilite.bad pre,
+.highlight.bad pre {
+  background-color: #ffebee !important; /* Light red */
+}
+
+/* Exception code block background */
+.codehilite.exception pre,
+.highlight.exception pre {
+  background-color: #fffde7 !important; /* Light yellow */
+}
+
+
+/* FOLLOWING WORKS WITH ONLY GOOD BAD TEXT: */
+/*
 .style-good, .style-bad, .style-exception {
   font-weight: bold;
   margin-bottom: 0.25em;
@@ -9,24 +30,24 @@
 
 .style-good {
   color: #2e7d32; /* Green */
-}
+/* }
 
 .style-bad {
   color: #c62828; /* Red */
-}
+/*}
 
 .style-exception {
   color: #f9a825; /* Amber/Yellow */
-}
+/*}
 
 /* Code block backgrounds */
-div.codehilite.good pre {
+/*div.codehilite.good pre {
   background-color: #e8f5e9; /* Light green */
-}
+/*}
 
 div.codehilite.bad pre {
   background-color: #ffebee; /* Light red */
-}
+/*}
 
 div.codehilite.exception pre {
   background-color: #fffde7; /* Light yellow */
