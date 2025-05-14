@@ -74,6 +74,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.extra
   - attr_list
+  - codehilite
 
 nav:
   - Home: index.md
