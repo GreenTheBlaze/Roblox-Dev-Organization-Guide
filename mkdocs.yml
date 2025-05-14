@@ -74,6 +74,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Introduction: introduction.md
   - File Organization: file-organization.md
   - Scripting Style Guide: scripting-style-guide.md
