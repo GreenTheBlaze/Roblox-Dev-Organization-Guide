@@ -4,3 +4,4 @@
 local foo = {
   type = "foo"
 }
+```
