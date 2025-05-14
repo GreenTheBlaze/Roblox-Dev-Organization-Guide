@@ -66,14 +66,14 @@ extra_css:
 markdown_extensions:
   - tables
   - admonition
-  - codehilite:
-      guess_lang: false
+  # - codehilite:
+  #     guess_lang: false
   - toc:
       permalink: true
   - pymdownx.superfences
-  - pymdownx.highlight:
-      use_pygments: true
-      linenums: false
+  # - pymdownx.highlight:
+  #     use_pygments: true
+  #     linenums: false
   - pymdownx.extra
   - attr_list
 
