@@ -13,6 +13,14 @@ drainHangar()
 </code></pre></div>
 
 
+<p class="style-good">Good:</p>
+<div class="codehilite good"><pre><code>-- Good example
+if waterLevelTooHigh() then
+    drainHangar()
+end
+</code></pre></div>
+
+
 
 
 <p class="style-good">Good:</p>
