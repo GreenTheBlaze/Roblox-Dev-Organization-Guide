@@ -2,12 +2,46 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-.highlight.good pre {
+
+
+
+.md-typeset .style-good + .codehilite pre {
   background-color: #e8f5e9 !important; /* light green */
 }
 
-.highlight.bad pre {
+.md-typeset .style-bad + .codehilite pre {
   background-color: #ffebee !important; /* light red */
+}
+
+.md-typeset .style-exception + .codehilite pre {
+  background-color: #fffde7 !important; /* light yellow */
+}
+
+/* Additional styling for the "Good:", "Bad:", "Exception:" text itself */
+.style-good {
+  color: #2e7d32; /* dark green */
+  font-weight: bold;
+}
+
+.style-bad {
+  color: #c62828; /* red */
+  font-weight: bold;
+}
+
+.style-exception {
+  color: #f9a825; /* amber/yellow */
+  font-weight: bold;
+}
+
+
+
+/*
+.highlight.good pre {
+  background-color: #e8f5e9 !important;
+}
+
+.highlight.bad pre {
+  background-color: #ffebee !important;
 }
 
 .style-good, .style-bad {
@@ -17,22 +51,22 @@
 }
 
 .style-good {
-  color: #2e7d32; /* dark green */
+  color: #2e7d32;
 }
 
 .style-bad {
-  color: #c62828; /* red */
+  color: #c62828;
 }
 
 
 .codehilite.good pre {
-  background-color: #e8f5e9 !important; /* green */
+  background-color: #e8f5e9 !important;
 }
 
 .codehilite.bad pre {
-  background-color: #ffebee !important; /* red */
+  background-color: #ffebee !important;
 }
-
+*/
 
 
 /* FOLLOWING WORKS WITH ONLY GOOD BAD TEXT: */
