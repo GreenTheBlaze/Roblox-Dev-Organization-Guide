@@ -1,0 +1,85 @@
+site_name: GreenUtils_Roblox
+site_description: Documentation for GreenUtils
+site_url: https://GreenTheBlaze.github.io/GreenUtils_Roblox
+
+repo_name: GreenTheBlaze/GreenUtils_Roblox
+repo_url: https://github.com/GreenTheBlaze/GreenUtils_Roblox
+edit_uri: ""
+
+theme:
+  name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+extra_javascript:
+  - javascripts/tags.js
+
+markdown_extensions:
+  - tables
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Important Info: important-info.md
+  - GreenService:
+    - GreenPathfindingService: greenpathfindingservice-api.md
+    - GreenPhysicsService: greenphysicsservice-api.md
+    - WebhookService: webhookservice-api.md
+    - RequestService: requestservice-api.md
+  - GreenUtils:
+    - Features: features.md
+    - AssertionUtils API: assertionutils-api.md
+    - InstanceUtils API: instanceutils-api.md
+  - GreenEnum:
+    - greenPathStatus: greenpathstatus.md
