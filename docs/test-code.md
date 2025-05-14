@@ -1,16 +1,3 @@
-!!! exception "Exception:"
-    ```lua
+```lua hl_lines="2-3 5-8 10-11 13 17 23"
     error("Unexpected input")
-    ```
-
-!!! bad "Bad:"
-    ```lua
-    local x = 1/0
-    ```
-
-!!! good "Good:"
-    ```lua
-    local function safeDivide(a, b)
-      return b ~= 0 and a / b or nil
-    end
-    ```
+```
