@@ -2,22 +2,29 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-/* Remove default icon from admonitions */
-.md-typeset .exception::before {
-  content: none;
-}
-
-/* Style for the 'exception' block */
-.md-typeset .exception {
+/* EXCEPTION (orange) */
+.md-typeset .admonition.warning code,
+.md-typeset .admonition.warning pre {
   background-color: #fff8f0;
-  border-left: 4px solid #f08c00;
-  padding: 1em;
-  margin: 1em 0;
-  border-radius: 0.3em;
+}
+.md-typeset .admonition.warning > .admonition-title {
+  color: #f08c00;
 }
 
-/* Optional: Style the label */
-.md-typeset .exception strong {
-  color: #f08c00;
-  font-weight: 700;
+/* BAD (red) */
+.md-typeset .admonition.danger code,
+.md-typeset .admonition.danger pre {
+  background-color: #ffe6e6;
+}
+.md-typeset .admonition.danger > .admonition-title {
+  color: #d32f2f;
+}
+
+/* GOOD (green) */
+.md-typeset .admonition.success code,
+.md-typeset .admonition.success pre {
+  background-color: #e6ffed;
+}
+.md-typeset .admonition.success > .admonition-title {
+  color: #2e7d32;
 }
