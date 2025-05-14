@@ -56,9 +56,9 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to system preference
   
-  # highlightjs: true
-  hljs_languages:
-    - lua
+  highlightjs: false
+  # hljs_languages:
+  #   - lua
 
 extra_css:
   - stylesheets/extra.css
