@@ -1,6 +1,6 @@
 <p class="style-good">Good:</p>
 
-```lua hl_lines="1 2 3" class="good"
+```lua class="good"
 -- Without this condition, the aircraft hangar would fill up with water.
 if waterLevelTooHigh() then
     drainHangar()
