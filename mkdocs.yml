@@ -56,7 +56,7 @@ theme:
         icon: material/toggle-switch-off
         name: Switch to system preference
   
-  highlightjs: true
+  # highlightjs: true
   hljs_languages:
     - lua
 
@@ -70,7 +70,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: true
   - pymdownx.extra
   - attr_list
 
