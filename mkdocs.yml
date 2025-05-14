@@ -1,9 +1,9 @@
-site_name: GreenUtils_Roblox
+site_name: Roblox Dev Organization Guide
 site_description: Documentation for GreenUtils
-site_url: https://GreenTheBlaze.github.io/GreenUtils_Roblox
+site_url: https://greentheblaze.github.io/Roblox-Dev-Organization-Guide/
 
-repo_name: GreenTheBlaze/GreenUtils_Roblox
-repo_url: https://github.com/GreenTheBlaze/GreenUtils_Roblox
+repo_name: GreenTheBlaze/Roblox-Dev-Organization-Guide
+repo_url: https://github.com/GreenTheBlaze/Roblox-Dev-Organization-Guide
 edit_uri: ""
 
 theme:
@@ -39,7 +39,7 @@ theme:
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: preference
       primary: 'Light Blue'
       accent: 'Light Blue'
       toggle:
@@ -72,15 +72,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Important Info: important-info.md
-  - GreenService:
-    - GreenPathfindingService: greenpathfindingservice-api.md
-    - GreenPhysicsService: greenphysicsservice-api.md
-    - WebhookService: webhookservice-api.md
-    - RequestService: requestservice-api.md
-  - GreenUtils:
-    - Features: features.md
-    - AssertionUtils API: assertionutils-api.md
-    - InstanceUtils API: instanceutils-api.md
-  - GreenEnum:
-    - greenPathStatus: greenpathstatus.md
+  - Introduction: introduction.md
+  - File Organization: file-organization.md
+  - Scripting Style Guide: scripting-style-guide.md
