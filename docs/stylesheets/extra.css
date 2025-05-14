@@ -20,3 +20,16 @@
   background-color: #43a047;
   color: white;
 }
+
+/* Base class to make sure we don't style all code blocks */
+code.good, pre.good, .highlight.good {
+  background-color: #e8f5e9; /* light green */
+}
+
+code.bad, pre.bad, .highlight.bad {
+  background-color: #ffebee; /* light red */
+}
+
+code.exception, pre.exception, .highlight.exception {
+  background-color: #fff3e0; /* light orange */
+}
