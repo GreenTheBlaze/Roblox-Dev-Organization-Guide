@@ -25,11 +25,14 @@ This style guide shows good and bad examples of Lua code organization and best p
 
 ## Water Level Check
 
-<p class="style-good">Good:</p>
+<p class="style-good">
+    
+Good:
 
-```lua {.good}
+```lua
 -- Without this condition, the aircraft hangar would fill up with water.
 if waterLevelTooHigh() then
     drainHangar()
 end
 ```
+</p>
