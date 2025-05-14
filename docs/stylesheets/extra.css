@@ -2,62 +2,32 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-/* Label styles */
-.label-good {
-  color: #0f9d58;
+.style-good, .style-bad, .style-exception {
   font-weight: bold;
+  margin-bottom: 0.25em;
 }
 
-.label-bad {
-  color: #d93025;
-  font-weight: bold;
+.style-good {
+  color: #2e7d32; /* Green */
 }
 
-/* Code block coloring */
-.highlight.good, pre.good {
-  background-color: #e6f4ea !important;
-  border-left: 4px solid #0f9d58;
-  padding: 1em;
-  border-radius: 5px;
+.style-bad {
+  color: #c62828; /* Red */
 }
 
-.highlight.bad, pre.bad {
-  background-color: #fce8e6 !important;
-  border-left: 4px solid #d93025;
-  padding: 1em;
-  border-radius: 5px;
+.style-exception {
+  color: #f9a825; /* Amber/Yellow */
 }
 
-/* Label styling */
-.codehilite .label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 0.5em;
+/* Code block backgrounds */
+div.codehilite.good pre {
+  background-color: #e8f5e9; /* Light green */
 }
 
-/* Good block */
-.codehilite.good {
-  background-color: #e6f4ea;
-  border-left: 4px solid #0f9d58;
-  padding: 1em;
-  border-radius: 6px;
-  margin-bottom: 1.5em;
+div.codehilite.bad pre {
+  background-color: #ffebee; /* Light red */
 }
 
-/* Bad block */
-.codehilite.bad {
-  background-color: #fce8e6;
-  border-left: 4px solid #d93025;
-  padding: 1em;
-  border-radius: 6px;
-  margin-bottom: 1.5em;
-}
-
-/* Exception block */
-.codehilite.exception {
-  background-color: #fff3e0;
-  border-left: 4px solid #f57c00;
-  padding: 1em;
-  border-radius: 6px;
-  margin-bottom: 1.5em;
+div.codehilite.exception pre {
+  background-color: #fffde7; /* Light yellow */
 }
