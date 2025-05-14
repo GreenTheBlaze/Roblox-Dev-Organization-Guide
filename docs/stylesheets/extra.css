@@ -2,34 +2,18 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-.md-typeset .admonition.exception {
-  background-color: #fff3e0;
-  border-left: 4px solid #ffa726;
+/* Green background for 'good' code blocks */
+.highlight.good, pre.good {
+  background-color: #e6f4ea !important;
+  border-left: 4px solid #34a853;
+  padding: 1em;
+  border-radius: 5px;
 }
 
-.md-typeset .admonition.bad {
-  background-color: #ffebee;
-  border-left: 4px solid #e53935;
-}
-
-.md-typeset .admonition.good {
-  background-color: #e8f5e9;
-  border-left: 4px solid #43a047;
-}
-.code-block.good .code-label {
-  background-color: #43a047;
-  color: white;
-}
-
-/* Base class to make sure we don't style all code blocks */
-code.good, pre.good, .highlight.good {
-  background-color: #e8f5e9; /* light green */
-}
-
-code.bad, pre.bad, .highlight.bad {
-  background-color: #ffebee; /* light red */
-}
-
-code.exception, pre.exception, .highlight.exception {
-  background-color: #fff3e0; /* light orange */
+/* Red background for 'bad' code blocks */
+.highlight.bad, pre.bad {
+  background-color: #fce8e6 !important;
+  border-left: 4px solid #d93025;
+  padding: 1em;
+  border-radius: 5px;
 }
