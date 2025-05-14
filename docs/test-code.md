@@ -36,3 +36,15 @@ if waterLevelTooHigh() then
 end
 ```
 </p>
+
+
+<p class="style-good">Good:</p>
+
+```lua
+-- Without this condition, the aircraft hangar would fill up with water.
+if waterLevelTooHigh() then
+    drainHangar()
+end
+```
+
+
