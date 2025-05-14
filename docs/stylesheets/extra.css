@@ -2,8 +2,39 @@
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
+/* Common code container */
+.code-block {
+  padding: 1em;
+  border-left: 4px solid;
+  border-radius: 6px;
+  margin-bottom: 1.5em;
+}
+
+/* Labels */
+.code-block .label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Specific background styles */
+.code-block.good {
+  background-color: #e6f4ea;
+  border-color: #0f9d58;
+}
+
+.code-block.bad {
+  background-color: #fce8e6;
+  border-color: #d93025;
+}
+
+.code-block.exception {
+  background-color: #fff3e0;
+  border-color: #f57c00;
+}
+
 /* Label styles */
-.label-good {
+/* .label-good {
   color: #0f9d58;
   font-weight: bold;
 }
@@ -14,7 +45,7 @@
 }
 
 /* Code block coloring */
-.highlight.good, pre.good {
+/* .highlight.good, pre.good {
   background-color: #e6f4ea !important;
   border-left: 4px solid #0f9d58;
   padding: 1em;
@@ -27,3 +58,4 @@
   padding: 1em;
   border-radius: 5px;
 }
+ */
