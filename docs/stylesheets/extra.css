@@ -29,6 +29,16 @@ pre {
 }
 
 
+.codehilite.good pre {
+  background-color: #e8f5e9 !important; /* green */
+}
+
+.codehilite.bad pre {
+  background-color: #ffebee !important; /* red */
+}
+
+
+
 /* FOLLOWING WORKS WITH ONLY GOOD BAD TEXT: */
 /*
 .style-good, .style-bad, .style-exception {
