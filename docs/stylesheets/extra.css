@@ -36,7 +36,7 @@
 	margin-bottom: 0;
 }
 
-.md-typeset .style-good + .codehilite {
+.md-typeset .style-good + .highlight {
 	margin-top: 0;
 	background-color: #ecffe5;
 }
@@ -47,7 +47,7 @@
 	margin-bottom: 0;
 }
 
-.md-typeset .style-bad + .codehilite {
+.md-typeset .style-bad + .highlight {
 	margin-top: 0;
 	background-color: #ffecec;
 }
@@ -58,7 +58,7 @@
 	margin-bottom: 0;
 }
 
-.md-typeset .style-exception + .codehilite {
+.md-typeset .style-exception + .highlight {
 	margin-top: 0;
 	background-color: #fffaf1;
 }
