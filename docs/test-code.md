@@ -6,7 +6,9 @@ if waterLevelTooHigh() then
 end
 ```
 
-```{ .python .style-good }
+<span class="style-good">Good:</span>
+
+```{.python}
 import hello_world
 ```
 
