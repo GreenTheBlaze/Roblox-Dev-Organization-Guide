@@ -22,6 +22,22 @@ if waterLevelTooHigh() then
 end
 ```
 
+<p class="style-good">Good:</p>
+
+```{.lua}
+if waterLevelTooHigh() then
+    drainHangar()
+end
+```
+
+<p class="style-good">Good:</p>
+
+```.lua
+if waterLevelTooHigh() then
+    drainHangar()
+end
+```
+
 
 <p class="style-good">Good:</p>
 
