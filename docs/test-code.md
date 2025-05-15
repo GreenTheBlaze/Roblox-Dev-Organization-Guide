@@ -6,6 +6,9 @@ if waterLevelTooHigh() then
 end
 ```
 
+```{ .python .extra-class }
+import hello_world
+```
 
 # Lua Scripting Style Guide
 
