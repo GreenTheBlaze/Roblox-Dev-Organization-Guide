@@ -78,6 +78,22 @@
 }
 
 
+
+/* Text label styling (optional) */
+.md-typeset .style-good {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+
+/* Green code block — target actual structure used by MkDocs */
+.md-typeset pre code.style-good {
+  background-color: #ecffe5;
+  display: block;
+  padding: 1em;
+  border-radius: 4px;
+}
+
 /*
 .highlight.good pre {
   background-color: #e8f5e9 !important;
