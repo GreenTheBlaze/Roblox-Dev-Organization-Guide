@@ -14,6 +14,14 @@ end
     ```
 </pre>
 
+<p class="style-good">Good:</p>
+
+```{.lua .style-good}
+if waterLevelTooHigh() then
+    drainHangar()
+end
+```
+
 
 <p class="style-good">Good:</p>
 
