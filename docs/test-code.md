@@ -1,12 +1,12 @@
-<p class="style-good">Good:</p>
-
+<p class="style-good">Good:
+<p class="style-good">
 ```lua
 -- This is good code
 if waterLevelTooHigh() then
     drainHangar()
 end
 ```
-
+</p>
 
 
 # Lua Scripting Style Guide
