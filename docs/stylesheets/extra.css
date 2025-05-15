@@ -1,4 +1,19 @@
-.md-typeset .style-good {
+.md-typeset pre.style-good::before {
+  content: "Good:";
+  display: block;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 0.25em;
+}
+
+/* Style the background of the code block */
+.md-typeset pre.style-good {
+  background-color: #ecffe5 !important;
+}
+
+
+/* Roblox's File: */
+/* .md-typeset .style-good {
 	color: green;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -29,7 +44,7 @@
 .md-typeset .style-exception + .highlight {
 	margin-top: 0;
 	background-color: #fffaf1;
-}
+} */
 
 
 
