@@ -6,7 +6,7 @@ if waterLevelTooHigh() then
 end
 ```
 
-```{ .python .extra-class }
+```{ .python .style-good }
 import hello_world
 ```
 
