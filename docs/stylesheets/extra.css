@@ -65,16 +65,17 @@
 
 
 
-.md-typeset .highlight.style-good {
+.md-typeset .style-good {
   color: green;
   font-weight: bold;
   margin-bottom: 0;
 }
-.md-typeset .highlight.style-good::after {
+
+/* Style the code block itself */
+.md-typeset .highlight.style-good {
   margin-top: 0;
   background-color: #ecffe5;
 }
-
 
 
 /*
