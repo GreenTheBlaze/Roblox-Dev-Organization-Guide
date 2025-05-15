@@ -80,28 +80,16 @@
 
 
 
-.md-typeset .style-good {
-  color: green;
+/* Add label above .style-good blocks */
+.md-typeset .highlight.style-good::before {
+  content: "Good:";
+  display: block;
+  color: #2e7d32; /* green */
   font-weight: bold;
   margin-bottom: 0.25em;
 }
 
-/* Green background for code blocks with .style-good */
-.md-typeset pre > .highlight.style-good {
-  background-color: #ecffe5;
-  display: block;
-  padding: 1em;
-  border-radius: 4px;
-}
-
-/* Green code block — target actual structure used by MkDocs */
-/* .md-typeset pre code.style-good {
-  background-color: #ecffe5;
-  display: block;
-  padding: 1em;
-  border-radius: 4px;
-} */
-
+/* Apply green background */
 .md-typeset .highlight.style-good {
   background-color: #ecffe5;
   padding: 1em;
