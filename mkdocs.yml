@@ -66,20 +66,20 @@ extra_css:
 markdown_extensions:
   - tables
   - admonition
-  - codehilite:
-      guess_lang: false
+  # - codehilite:
+  #     guess_lang: false
   - toc:
       permalink: true
-  # - pymdownx.superfences
-  # - pymdownx.highlight:
-  #     anchor_linenums: true
-  #     line_spans: __span
-  #     pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   #   use_pygments: true
   #   linenums: false
-  # - pymdownx.inlinehilite
-  # - pymdownx.keys
-  # - pymdownx.extra
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.extra
   - attr_list
 
 nav:
