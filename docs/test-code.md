@@ -10,6 +10,8 @@ end
 import hello_world
 ```
 
+<pre> ```{.python .style-good} import hello_world ``` </pre>
+
 # Lua Scripting Style Guide
 
 This style guide shows good and bad examples of Lua code organization and best practices.
