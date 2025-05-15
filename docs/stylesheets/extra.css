@@ -87,7 +87,7 @@
 }
 
 /* Green background for code blocks with .style-good */
-.md-typeset pre > highlight.style-good {
+.md-typeset pre > .highlight.style-good {
   background-color: #ecffe5;
   display: block;
   padding: 1em;
@@ -102,9 +102,8 @@
   border-radius: 4px;
 } */
 
-.md-typeset highlight.style-good {
+.md-typeset .highlight.style-good {
   background-color: #ecffe5;
-  display: block;
   padding: 1em;
   border-radius: 4px;
 }
