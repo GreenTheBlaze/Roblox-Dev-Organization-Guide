@@ -12,3 +12,12 @@ end
 ```{.python}
 import hello_world
 ```
+
+```{.python .style-good}
+import hello_world
+```
+
+<span class="style-good">Good:</span>
+```{.python}
+import hello_world
+```
