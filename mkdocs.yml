@@ -66,8 +66,8 @@ extra_css:
 markdown_extensions:
   - tables
   - admonition
-  # - codehilite:
-  #     guess_lang: false
+  - codehilite:
+      guess_lang: false
   - toc:
       permalink: true
   - pymdownx.superfences
