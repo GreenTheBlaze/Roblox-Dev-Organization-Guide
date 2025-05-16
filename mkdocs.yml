@@ -49,7 +49,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: preference
       primary: green
       accent: green
       toggle:
