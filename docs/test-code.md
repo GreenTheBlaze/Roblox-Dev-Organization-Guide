@@ -1,17 +1,31 @@
-```{.python .style-good-code}
-import hello_world
-```
-
-<p class="style-good-text">Good:</p>
-
-```lua { .style-good-code }
-print("Test")
-```
-
-<p class="style-good">
-Good:
+<p class="style-good">Good:</p>
 
 ```lua { .style-good }
 print("Test")
 ```
-</p>
+
+<p class="style-bad">Bad:</p>
+
+```lua { .style-good }
+print("Test")
+```
+
+<p class="style-exception">Exception:</p>
+
+```lua { .style-exception }
+print("Test")
+```
+
+----
+
+```lua { .style-good-header }
+print("Test")
+```
+
+```lua { .style-good-header }
+print("Test")
+```
+
+```lua { .style-exception-header }
+print("Test")
+```
