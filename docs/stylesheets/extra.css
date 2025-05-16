@@ -8,7 +8,7 @@
 
 /* Add label above .style-good blocks */
 .md-typeset .style-good {
-  color: green; /* Old: green */
+  color: green;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
@@ -18,14 +18,14 @@
   font-weight: normal;
   background-color: #ecffe5;
 /*   display: block; */
-  border-color: rgb(43, 155, 70);
+/*   border-color: rgb(43, 155, 70); */
 /*   border-radius: 4px; */
   margin-top: 0;
 }
 
 /* Add label above .style-good blocks */
 .md-typeset .style-bad {
-  color: red; /* Old: green */
+  color: red;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
@@ -35,14 +35,14 @@
   font-weight: normal;
   background-color: #ffecec;
 /*   display: block; */
-  border-color: rgb(43, 155, 70);
+/*   border-color: rgb(43, 155, 70); */
 /*   border-radius: 4px; */
   margin-top: 0;
 }
 
 /* Add label above .style-good blocks */
 .md-typeset .style-exception {
-  color: orange; /* Old: green */
+  color: orange;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
@@ -52,9 +52,52 @@
   font-weight: normal;
   background-color: #fffaf1;
 /*   display: block; */
-  border-color: rgb(43, 155, 70);
+/*   border-color: rgb(43, 155, 70); */
 /*   border-radius: 4px; */
   margin-top: 0;
+}
+
+/* Green background for code blocks with .style-good */
+.md-typeset pre.style-good-auto-header {
+  font-weight: normal;
+  background-color: #ecffe5;
+/*   display: block; */
+/*   border-color: rgb(43, 155, 70); */
+/*   border-radius: 4px; */
+  margin-top: 0;
+}
+.md-typeset pre.style-good-auto-header::before {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.md-typeset pre.style-bad-auto-header {
+  font-weight: normal;
+  background-color: #ffecec;
+/*   display: block; */
+/*   border-color: rgb(43, 155, 70); */
+/*   border-radius: 4px; */
+  margin-top: 0;
+}
+.md-typeset pre.style-bad-auto-header::before {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.md-typeset pre.style-exception-auto-header {
+  font-weight: normal;
+  background-color: #fffaf1;
+/*   display: block; */
+/*   border-color: rgb(43, 155, 70); */
+/*   border-radius: 4px; */
+  margin-top: 0;
+}
+.md-typeset pre.style-exception-auto-header::before {
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
 }
 
 /*
