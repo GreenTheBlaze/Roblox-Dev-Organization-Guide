@@ -11,7 +11,7 @@ print("Test")
 <p class="style-good">
 Good:
 
-```lua
+```lua { .style-good }
 print("Test")
 ```
 </p>
