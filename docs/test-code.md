@@ -6,7 +6,7 @@ print("Test")
 
 <p class="style-bad">Bad:</p>
 
-```lua { .style-good }
+```lua { .style-bad }
 print("Test")
 ```
 
@@ -22,7 +22,7 @@ print("Test")
 print("Test")
 ```
 
-```lua { .style-good-header }
+```lua { .style-bad-header }
 print("Test")
 ```
 
