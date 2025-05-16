@@ -8,17 +8,19 @@
 
 /* Add label above .style-good blocks */
 .md-typeset .style-good {
-  color: green;
-  font-weight: bold;
-  margin-bottom: 0.25em;
+  color: rgb(43, 155, 70); /* Old: green */
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 /* Green background for code blocks with .style-good */
 .md-typeset .style-good pre > code {
-  background-color: var(--code-bg-good);
+  background-color: rgba(43, 155, 70, 0.1); /* var(--code-bg-good); */
   display: block;
-  padding: 1em;
+  /* padding: 1em; */
+  border-color: rgb(43, 155, 70);
   border-radius: 4px;
+  margin-top: 0;
 }
 
 
