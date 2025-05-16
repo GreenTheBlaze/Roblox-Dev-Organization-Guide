@@ -61,16 +61,21 @@
 .md-typeset .style-good-auto-header {
   font-weight: normal;
   background-color: #ecffe5;
-/*   display: block; */
+  display: block;
 /*   border-color: rgb(43, 155, 70); */
 /*   border-radius: 4px; */
+}
+
+.md-typeset .style-good-auto-header pre {
   margin-top: 0;
 }
+
 /* .md-typeset pre.style-good-auto-header::before { */
 .md-typeset .style-good-auto-header::before {
   color: green;
   content: "Good:";
   font-weight: bold;
+  display: block;
   margin-bottom: 0.25rem;
 }
 
