@@ -88,7 +88,7 @@
 }
 
 /* Green background for code blocks with .style-good */
-.md-typeset pre > code.style-good {
+.md-typeset .style-good pre > code {
   background-color: #ecffe5;
   display: block;
   padding: 1em;
