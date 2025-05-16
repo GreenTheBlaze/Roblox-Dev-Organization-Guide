@@ -4,6 +4,6 @@ import hello_world
 
 <p class="style-good">Good:</p>
 
-```.lua { .style-good }
+```lua { .style-good }
 print("Test")
 ```
