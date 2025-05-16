@@ -31,7 +31,7 @@
 }
 
 /* Green background for code blocks with .style-good */
-.md-typeset .style-good pre > code {
+.md-typeset .style-bad pre > code {
   font-weight: normal;
   background-color: #ffecec;
 /*   display: block; */
