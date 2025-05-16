@@ -25,7 +25,7 @@
 
 .md-typeset .style-good-text {
   color: rgb(43, 155, 70); /* Old: green */
-/*   font-weight: bold; */
+  font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
@@ -34,6 +34,15 @@
   background-color: rgba(43, 155, 70, 0.1); /* var(--code-bg-good); */
   display: block;
   /* padding: 1em; */
+  border-color: rgb(43, 155, 70);
+  border-radius: 4px;
+  margin-top: 0;
+}
+
+.md-typeset .style-good-code pre > code {
+  font-weight: normal;
+  background-color: rgba(43, 155, 70, 0.1);
+  display: block;
   border-color: rgb(43, 155, 70);
   border-radius: 4px;
   margin-top: 0;
