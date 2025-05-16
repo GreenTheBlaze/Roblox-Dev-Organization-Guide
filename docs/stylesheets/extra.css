@@ -1,84 +1,10 @@
-/* following worked but was weird: */
-/* .md-typeset pre.style-good::before {
-  content: "Good:";
-  display: block;
-  font-weight: bold;
-  color: #2e7d32;
-  margin-bottom: 0.25em;
+:root {
+  --code-bg-good: #ecffe5; /* Light theme default */
 }
 
-/* Style the background of the code block */
-/* .md-typeset pre.style-good {
-  background-color: #ecffe5 !important;
-} */
-
-/* Add label above .style-good blocks */
-/* .md-typeset .highlight.style-good::before {
-  content: "Good:";
-  display: block;
-  color: #2e7d32;
-  font-weight: bold;
-  margin-bottom: 0.25em;
-} */
-
-/* Apply green background
-.md-typeset .highlight.style-good {
-  background-color: #ecffe5;
-  padding: 1em;
-  border-radius: 4px;
-} */
-
-
-/* Roblox's File: */
-/* .md-typeset .style-good {
-	color: green;
-	font-weight: bold;
-	margin-bottom: 0;
+[data-md-color-scheme="slate"] {
+  --code-bg-good: #223322; /* Dark theme override */
 }
-
-.md-typeset .style-good + .highlight {
-	margin-top: 0;
-	background-color: #ecffe5;
-}
-
-.md-typeset .style-bad {
-	color: red;
-	font-weight: bold;
-	margin-bottom: 0;
-}
-
-.md-typeset .style-bad + .highlight {
-	margin-top: 0;
-	background-color: #ffecec;
-}
-
-.md-typeset .style-exception {
-	color: orange;
-	font-weight: bold;
-	margin-bottom: 0;
-}
-
-.md-typeset .style-exception + .highlight {
-	margin-top: 0;
-	background-color: #fffaf1;
-} */
-
-
-
-/* .md-typeset .style-good {
-  color: green;
-  font-weight: bold;
-  margin-bottom: 0;
-} */
-
-/* Style the code block itself */
-/* .md-typeset .highlight.style-good {
-  margin-top: 0;
-  background-color: #ecffe5;
-} */
-
-
-
 
 /* Add label above .style-good blocks */
 .md-typeset .style-good {
@@ -89,7 +15,7 @@
 
 /* Green background for code blocks with .style-good */
 .md-typeset .style-good pre > code {
-  background-color: #ecffe5;
+  background-color: var(--code-bg-good);
   display: block;
   padding: 1em;
   border-radius: 4px;
