@@ -1,6 +1,6 @@
 <p class="style-good">Good:</p>
 
-```lua { .style-good }
+```lua { .style-good title="Bad:" }
 print("Test")
 ```
 
