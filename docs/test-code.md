@@ -18,14 +18,14 @@ print("Test")
 
 ----
 
-```lua { .style-good-header }
+```lua { .style-good-auto-header }
 print("Test")
 ```
 
-```lua { .style-bad-header }
+```lua { .style-bad-auto-header }
 print("Test")
 ```
 
-```lua { .style-exception-header }
+```lua { .style-exception-auto-header }
 print("Test")
 ```
