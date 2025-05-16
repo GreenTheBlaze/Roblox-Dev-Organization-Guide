@@ -1,6 +1,6 @@
 <p class="style-good">Good:</p>
 
-```lua { .style-good title="Bad:" }
+```lua { .style-good }
 print("Test")
 ```
 
@@ -23,6 +23,10 @@ print("Test")
 ```
 
 ```lua { .style-bad-auto-header }
+print("Test")
+```
+
+```lua { .style-exception-auto-header }
 print("Test")
 ```
 
