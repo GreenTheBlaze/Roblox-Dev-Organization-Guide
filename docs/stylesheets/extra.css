@@ -58,7 +58,7 @@
 }
 
 /* Green background for code blocks with .style-good */
-.md-typeset pre.style-good-auto-header {
+.md-typeset style-good-auto-header {
   font-weight: normal;
   background-color: #ecffe5;
 /*   display: block; */
@@ -66,13 +66,14 @@
 /*   border-radius: 4px; */
   margin-top: 0;
 }
-.md-typeset pre.style-good-auto-header::before {
+/* .md-typeset pre.style-good-auto-header::before { */
+.md-typeset pre > code.style-good-auto-header {
   color: green;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
-.md-typeset pre.style-bad-auto-header {
+.md-typeset style-bad-auto-header {
   font-weight: normal;
   background-color: #ffecec;
 /*   display: block; */
@@ -80,13 +81,13 @@
 /*   border-radius: 4px; */
   margin-top: 0;
 }
-.md-typeset pre.style-bad-auto-header::before {
+.md-typeset style-bad-auto-header::before {
   color: red;
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
-.md-typeset pre.style-exception-auto-header {
+.md-typeset style-exception-auto-header {
   font-weight: normal;
   background-color: #fffaf1;
 /*   display: block; */
@@ -94,7 +95,7 @@
 /*   border-radius: 4px; */
   margin-top: 0;
 }
-.md-typeset pre.style-exception-auto-header::before {
+.md-typeset style-exception-auto-header::before {
   color: orange;
   font-weight: bold;
   margin-bottom: 0.25rem;
