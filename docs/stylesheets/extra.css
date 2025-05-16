@@ -67,7 +67,7 @@
   margin-top: 0;
 }
 /* .md-typeset pre.style-good-auto-header::before { */
-.md-typeset pre > code.style-good-auto-header {
+.md-typeset pre > code.style-good-auto-header::before {
   color: green;
   font-weight: bold;
   margin-bottom: 0.25rem;
